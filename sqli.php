@@ -24,5 +24,5 @@ AutoSqli::getColumns();
 
 $time_elapsed_secs = round(microtime(true) - $start, 2);
 
-echo "If table blank or not found you can use DIOS: https://github.com/Rizsyad/diosqli \n";
+echo "If table blank or not found you can use DIOS: https://github.com/trhacknon/dios-sqli \n";
 echo "End Time: $time_elapsed_secs s \n";

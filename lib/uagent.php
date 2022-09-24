@@ -3,8 +3,8 @@
 /**
  * User Agent Generator
  * @version 1.0
- * @link https://github.com/Dreyer/random-uagent
- * @author Dreyer
+ * @link https://github.com/trhacknon/random-uagent
+ * @author Dreyer @modder trhacknon
  */
 
 class UAgent

